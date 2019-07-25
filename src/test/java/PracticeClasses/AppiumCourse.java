@@ -1,3 +1,5 @@
+package PracticeClasses;
+
 import com.sun.org.apache.bcel.internal.generic.SWITCH;
 
 public class AppiumCourse {

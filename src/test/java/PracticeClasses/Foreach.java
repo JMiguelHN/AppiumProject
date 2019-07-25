@@ -1,3 +1,5 @@
+package PracticeClasses;
+
 import java.lang.reflect.Array;
 
 public class Foreach {
