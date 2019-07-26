@@ -14,8 +14,11 @@ public class DBConnetion {
         this.hello();
     }*/
 
-    final String DRIVER = "com.mysql.jdbc.Driver";
-    final String DB_PATH = "jdbc:mysql://localhost/java_test";
+    final String DRIVER = "com.mysql.cj.jdbc.Driver";
+    //final String DB_PATH = "jdbc:mysql://localhost:3306/test";
+    final String DB_PATH = "jdbc:mysql://localhost:3306/test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
+
+
     String user = "root";
     String pass = "admin";
     Connection connection = null;
