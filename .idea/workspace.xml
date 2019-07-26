@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cbf7d1e-f582-42e0-9acb-61c61b3043b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steps/Tc001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Driver/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DBConnection/DBConnetion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DBConnection/DBConnetion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PracticeClasses/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PracticeClasses/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testData/apk/exampleApk.apk" beforeDir="false" afterPath="$PROJECT_DIR$/src/testData/apk/exampleApk.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/AppiumCourse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Foreach.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps/Tc001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps/Tc001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testData/apk/exampleApk.apk" beforeDir="false" afterPath="$PROJECT_DIR$/src/testData/Application/Android/exampleApk.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steps/Tc001.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steps/Tc001.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,10 +24,24 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Steps/Tc001.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+            <state relative-caret-position="240">
+              <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Driver/Driver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-488">
+              <caret line="26" column="68" lean-forward="true" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2945#2946#0" expanded="true" />
+                <element signature="e#2974#2975#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -62,6 +72,7 @@
         <option value="$PROJECT_DIR$/src/test/java/DBConnection/DBConnetion.java" />
         <option value="$PROJECT_DIR$/src/test/java/PracticeClasses/Main.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/Driver/Driver.java" />
         <option value="$PROJECT_DIR$/src/test/java/Steps/Tc001.java" />
       </list>
     </option>
@@ -101,14 +112,20 @@
               <item name="appiumExample" type="b2602c69:ProjectViewProjectNode" />
               <item name="appiumExample" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="testData" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="appiumExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="appiumExample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="appiumExample" type="b2602c69:ProjectViewProjectNode" />
               <item name="appiumExample" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="testData" type="462c0819:PsiDirectoryNode" />
-              <item name="apk" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -122,6 +139,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/testData/apk" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/testData/application" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/testData/apk" />
     </key>
@@ -206,15 +226,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Tc001 - 2019.07.26 at 15h 30m 29s.xml">
-      <configuration name="Tc001" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Tc001 - 2019.07.26 at 15h 32m 18s.xml">
-      <configuration name="Tc001" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Tc001 - 2019.07.26 at 15h 34m 51s.xml">
-      <configuration name="Tc001" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="Tc001 - 2019.07.26 at 15h 45m 18s.xml">
       <configuration name="Tc001" configurationId="TestNG" />
     </history-entry>
@@ -231,6 +242,18 @@
       <configuration name="Tc001" configurationId="TestNG" />
     </history-entry>
     <history-entry file="Tc001 - 2019.07.26 at 15h 52m 00s.xml">
+      <configuration name="Tc001" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Tc001 - 2019.07.26 at 16h 10m 25s.xml">
+      <configuration name="Tc001" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Tc001 - 2019.07.26 at 16h 13m 27s.xml">
+      <configuration name="Tc001" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Tc001 - 2019.07.26 at 16h 14m 20s.xml">
+      <configuration name="Tc001" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Tc001 - 2019.07.26 at 16h 32m 50s.xml">
       <configuration name="Tc001" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -255,7 +278,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32865497" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32905483" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32865497" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -312,10 +335,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Driver/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-488">
+          <caret line="26" column="68" lean-forward="true" selection-start-line="26" selection-start-column="68" selection-end-line="26" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2945#2946#0" expanded="true" />
+            <element signature="e#2974#2975#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Steps/Tc001.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+        <state relative-caret-position="240">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
