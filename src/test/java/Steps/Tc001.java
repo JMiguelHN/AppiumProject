@@ -13,8 +13,10 @@ import java.net.URL;
 
 public class Tc001 {
     @Test
-    public void TC001() throws MalformedURLException{
-        Driver driver = new Driver("IOS");
+    public void TC001() throws MalformedURLException, InterruptedException {
+        Driver driver = new Driver("android");
+
+
 
 
 
